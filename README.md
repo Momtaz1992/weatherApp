@@ -1,9 +1,6 @@
 # Weather App Project
 This Weather App is a simple web application that allows users to check the weather conditions for a specific location. It uses HTML, CSS, and JavaScript to create an interactive and user-friendly interface. The app fetches weather data from the OpenWeatherMap API.
 
-Certainly! Here's an example of a short README file for a weather app project using HTML, CSS, JavaScript, and an API:
-
-
 ## How to Use
 
 1. Clone the repository to your local machine using `git clone`.
