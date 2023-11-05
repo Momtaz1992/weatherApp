@@ -137,6 +137,16 @@ ul{
        font-weight: 500;
        text-align: left;
 }
+.weather{
+       display: none;
+}
+.error{
+       display: none;
+       font-size: 18px;
+       text-align: left;
+       margin-left: 12px;
+       color: var(--red-color);
+}
 @media (max-width:767px){
        .details .col{
               flex-direction: column;
