@@ -4,7 +4,7 @@
        --primary-color:#21998d4e;
        --light-color:#d1d8e0;
        --grey-color:#687080;
-       --red-color:#ff4757;
+       --red-color:#ef071ae1;
        --flashwhite-color:#f1f2f6;
        --white-color:#ffffff;
        --dark-color:#212121;
@@ -65,12 +65,12 @@ ul{
 .search{
        padding: 10px;
        margin: 10px;
-       display: grid;
-       grid-template-columns: 1fr auto;
-       gap: 10px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
 }
 .search input{
-       width: 100%;
+       width: 90%;
        padding: 15px;
        margin: 10px;
        border-radius: 20px;
@@ -81,7 +81,7 @@ ul{
        color: var(--dark-color);
        background-color: var(--white-color);
 }
-.search button{
+.search .btnSearch{
        padding: 10px;
        margin: 10px;
        border-radius: 50%;
@@ -92,6 +92,18 @@ ul{
        color: var(--white-color);
        background-color: var(--white-color);
        cursor: pointer;
+}
+.search .btnClear{
+       border-radius: 50%;
+       padding: 13px;
+       margin: 10px;
+       font-weight: 600;
+       border: none;
+       outline: none;
+       color: var(--white-color);
+       background-color: var(--red-color);
+       cursor: pointer;
+       text-align: center;
 }
 .search button i{
        color: var(--dark-color);
